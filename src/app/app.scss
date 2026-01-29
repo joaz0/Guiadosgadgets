@@ -137,6 +137,12 @@
   color: var(--ink);
 }
 
+.lead {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--text);
+}
+
 .page__content {
   display: grid;
   gap: 1rem;
