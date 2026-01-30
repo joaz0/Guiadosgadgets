@@ -24,11 +24,11 @@ interface Review {
 export class ReviewsComponent {
   featuredReview: Review = {
     id: 1,
-    title: 'Top 10 Melhores Notebooks Disponiveis Agora (2025/2026)',
+    title: 'Top 10 Notebooks por Custo x Beneficio no Brasil (Jan 2026)',
     category: 'Computadores',
     image: 'assets/images/LenovoLOQ.png',
     rating: 9.8,
-    summary: 'Ranking atualizado com metodologia de custo x beneficio, focado em modelos ja disponiveis.',
+    summary: 'Ranking por faixa de preco usando o indice de valor (IV) e disponibilidade no Brasil.',
     badge: 'Guia Definitivo',
     date: '29 Jan 2026',
     link: '/reviews/top-10-notebooks-2026'
