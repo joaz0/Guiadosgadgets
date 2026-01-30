@@ -127,7 +127,7 @@
 }
 
 .panel-card--accent {
-  background: linear-gradient(160deg, #f1e9ff 0%, #ffffff 65%);
+  background: linear-gradient(160deg, rgba(124, 58, 237, 0.25) 0%, rgba(36, 16, 74, 0.95) 65%);
 }
 
 .panel-card__label {
@@ -191,7 +191,7 @@
 }
 
 .home__strip {
-  background: linear-gradient(120deg, #f2e9ff, #eae0ff);
+  background: linear-gradient(120deg, rgba(124, 58, 237, 0.2), rgba(36, 16, 74, 0.92));
   border-radius: 22px;
   padding: 2rem;
   border: 1px solid var(--line);
