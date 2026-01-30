@@ -36,48 +36,6 @@ export class ReviewsComponent {
 
   reviews: Review[] = [
     {
-      id: 2,
-      title: 'Galaxy S26 Ultra: A Câmera de 300MP Vale a Pena?',
-      category: 'Smartphones',
-      image: 'assets/images/review-placeholder.svg',
-      rating: 9.5,
-      summary: 'Testamos o novo zoom ótico variável. O resultado em baixa luz é assustador.',
-      badge: 'Escolha do Editor',
-      date: '28 Jan 2026',
-      link: '/reviews'
-    },
-    {
-      id: 3,
-      title: 'Fone Sony WH-1000XM6 vs. AirPods Max 2',
-      category: 'Áudio',
-      image: 'assets/images/review-placeholder.svg',
-      rating: 8.9,
-      summary: 'O cancelamento de ruído da Sony continua rei, mas a Apple ganhou em conforto.',
-      date: '25 Jan 2026',
-      link: '/reviews'
-    },
-    {
-      id: 4,
-      title: 'Monitor Dell UltraSharp U2724D: O Sonho do Home Office',
-      category: 'Periféricos',
-      image: 'assets/images/review-placeholder.svg',
-      rating: 9.2,
-      summary: 'A tecnologia IPS Black faz diferença real para quem trabalha com design.',
-      badge: 'Melhor para Trabalho',
-      date: '20 Jan 2026',
-      link: '/reviews'
-    },
-    {
-      id: 5,
-      title: 'Teclado Keychron K3 Pro: Mecânico e Low Profile',
-      category: 'Periféricos',
-      image: 'assets/images/review-placeholder.svg',
-      rating: 8.5,
-      summary: 'A ergonomia é perfeita, mas a bateria poderia durar mais.',
-      date: '15 Jan 2026',
-      link: '/reviews'
-    },
-    {
       id: 6,
       title: 'Top 10 Celulares por Custo x Beneficio (Jan 2026)',
       category: 'Smartphones',
