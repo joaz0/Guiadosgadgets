@@ -64,6 +64,16 @@
   font-size: 1.05rem;
 }
 
+.post-body h2 {
+  margin: 0;
+  color: var(--ink);
+}
+
+.post-body p {
+  margin: 0;
+  color: var(--text);
+}
+
 .verdict-box {
   border: 1px solid var(--line);
   border-radius: 20px;
@@ -73,12 +83,38 @@
   gap: 1rem;
 }
 
+.alert-box {
+  border: 1px solid rgba(245, 158, 11, 0.6);
+  border-radius: 16px;
+  padding: 1.25rem;
+  background: rgba(245, 158, 11, 0.12);
+  display: grid;
+  gap: 0.75rem;
+}
+
+.alert-box h3 {
+  margin: 0;
+  color: var(--ink);
+}
+
 .fast-list {
   margin: 0;
   padding-left: 1.2rem;
   display: grid;
   gap: 0.6rem;
   color: var(--text);
+}
+
+.bullet-list {
+  margin: 0;
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.5rem;
+  color: var(--text);
+}
+
+.bullet-list strong {
+  color: var(--ink);
 }
 
 .fast-list strong {
@@ -118,6 +154,11 @@
 .battle-section h3 {
   margin: 0;
   color: var(--ink);
+}
+
+.tier {
+  display: grid;
+  gap: 1rem;
 }
 
 .winner-card {
@@ -170,6 +211,35 @@
   margin: 0;
   font-size: 0.85rem;
   color: var(--muted);
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: var(--surface-2);
+}
+
+.table-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 640px;
+}
+
+.table-wrap th,
+.table-wrap td {
+  padding: 0.85rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--line);
+}
+
+.table-wrap thead {
+  background: rgba(124, 58, 237, 0.12);
+  color: var(--ink);
+}
+
+.table-wrap td {
+  color: var(--text);
 }
 
 @keyframes pulse {

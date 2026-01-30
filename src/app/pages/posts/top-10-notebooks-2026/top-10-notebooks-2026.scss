@@ -37,11 +37,21 @@
   color: var(--ink);
 }
 
+.post__section p {
+  margin: 0;
+  color: var(--text);
+}
+
 .post__snippet {
   border: 1px solid var(--line);
   border-radius: 18px;
   padding: 1.25rem;
   background: rgba(124, 58, 237, 0.08);
+}
+
+.post__snippet p {
+  margin: 0;
+  color: var(--text);
 }
 
 .post__snippet-label {
@@ -163,6 +173,10 @@
   padding: 0.85rem 1rem;
   text-align: left;
   border-bottom: 1px solid var(--line);
+}
+
+.table-wrap td {
+  color: var(--text);
 }
 
 .table-wrap thead {

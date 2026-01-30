@@ -79,12 +79,12 @@ export class ReviewsComponent {
     },
     {
       id: 6,
-      title: 'Top 10 Celulares de 2025: Lancamentos Disponiveis Agora',
+      title: 'Top 10 Celulares por Custo x Beneficio (Jan 2026)',
       category: 'Smartphones',
       image: 'assets/images/smartphones-2026.jpg',
       rating: 9.6,
       summary:
-        'Os lancamentos confirmados de 2025 que ja estao disponiveis: dos flagships aos melhores custo-beneficio.',
+        'Ranking por faixa de preco usando o indice de valor (IV) e regra do timing.',
       badge: 'Guia Atualizado',
       date: '02 Feb 2026',
       link: '/reviews/top-10-celulares-2026'
